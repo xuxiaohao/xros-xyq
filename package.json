@@ -1,0 +1,31 @@
+{
+  "name": "xros-xyq",
+  "version": "1.0.0",
+  "description": "XROS-XYQ Monorepo",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "pnpm --filter './packages/*' dev",
+    "dev:web": "pnpm --filter @xros-xyq/web dev",
+    "build": "pnpm --filter './packages/*' build",
+    "build:web": "pnpm --filter @xros-xyq/web build",
+    "preview:web": "pnpm --filter @xros-xyq/web preview",
+    "test": "pnpm --filter './packages/*' test",
+    "lint": "pnpm --filter './packages/*' lint",
+    "clean": "pnpm --filter './packages/*' clean"
+  },
+  "keywords": [
+    "monorepo",
+    "xros"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  }
+}
+

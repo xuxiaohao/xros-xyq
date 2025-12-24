@@ -1,0 +1,21 @@
+{
+  "name": "@xros-xyq/share",
+  "version": "1.0.0",
+  "description": "XROS Shared Utilities",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "echo 'share dev script'",
+    "build": "echo 'share build script'",
+    "test": "echo 'share test script'",
+    "lint": "echo 'share lint script'",
+    "clean": "echo 'share clean script'"
+  },
+  "keywords": [
+    "shared",
+    "utils"
+  ],
+  "author": "",
+  "license": "MIT"
+}
+

@@ -1,0 +1,12 @@
+{
+  // 控制打开文件时是否在新窗口中打开
+  // "on" - 始终在新窗口打开
+  // "off" - 始终在当前窗口打开
+  // "default" - 使用默认行为
+  "window.openFilesInNewWindow": "on",
+  
+  // 控制在没有参数的情况下打开时是否在新窗口中打开
+  // 这会影响从"最近文件"列表打开文件的行为
+  "window.openWithoutArgumentsInNewWindow": "on"
+}
+

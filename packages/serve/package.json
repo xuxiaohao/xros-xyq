@@ -1,0 +1,21 @@
+{
+  "name": "@xros-xyq/serve",
+  "version": "1.0.0",
+  "description": "XROS Server Application",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "echo 'serve dev script'",
+    "build": "echo 'serve build script'",
+    "test": "echo 'serve test script'",
+    "lint": "echo 'serve lint script'",
+    "clean": "echo 'serve clean script'"
+  },
+  "keywords": [
+    "server",
+    "backend"
+  ],
+  "author": "",
+  "license": "MIT"
+}
+
