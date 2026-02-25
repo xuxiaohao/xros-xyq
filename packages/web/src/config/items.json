@@ -1,0 +1,930 @@
+[
+  {
+    "id": 2000,
+    "name": "宝石",
+    "type": "dynamic",
+    "children": [
+      {
+        "name": "黑宝石",
+        "price": 15
+      },
+      {
+        "name": "月亮石",
+        "price": 7
+      },
+      {
+        "name": "舍利子",
+        "price": 11
+      },
+      {
+        "name": "红玛瑙",
+        "price": 10
+      },
+      {
+        "name": "太阳石",
+        "price": 7
+      },
+      {
+        "name": "光芒石",
+        "price": 4
+      },
+      {
+        "name": "翡翠石",
+        "price": 1
+      },
+      {
+        "name": "星辉石",
+        "price": 14
+      },
+      {
+        "name": "玄灵珠",
+        "price": 5
+      }
+    ],
+    "src": "/images/items/宝石.png"
+  },
+  {
+    "id": 2001,
+    "name": "强化石",
+    "type": "dynamic",
+    "children": [
+      {
+        "price": 9,
+        "name": "青龙石"
+      },
+      {
+        "price": 9,
+        "name": "白虎石"
+      },
+      {
+        "price": 9,
+        "name": "朱雀石"
+      },
+      {
+        "price": 9,
+        "name": "玄武石"
+      }
+    ],
+    "src": "/images/items/强化石.png"
+  },
+  {
+    "id": 2011,
+    "name": "炼妖石",
+    "children": [
+      {
+        "price": 5,
+        "name": "105炼妖石"
+      },
+      {
+        "price": 18,
+        "name": "115炼妖石"
+      },
+      {
+        "price": 42,
+        "name": "125炼妖石"
+      },
+      {
+        "price": 150,
+        "name": "135炼妖石"
+      },
+      {
+        "price": 220,
+        "name": "145炼妖石"
+      }
+    ],
+    "type": "dynamic",
+    "src": "/images/items/炼妖石.png"
+  },
+  {
+    "id": 2012,
+    "name": "元灵晶石",
+    "type": "dynamic",
+    "children": [
+      {
+        "name": "60级",
+        "price": 50
+      },
+      {
+        "name": "80级",
+        "price": 140
+      },
+      {
+        "name": "100级",
+        "price": 230
+      },
+      {
+        "name": "120级",
+        "price": 580
+      },
+      {
+        "name": "140级",
+        "price": 650
+      }
+    ],
+    "src": "/images/items/元灵晶石.png"
+  },
+  {
+    "id": 2013,
+    "name": "灵饰指南书",
+    "type": "dynamic",
+    "children": [
+      {
+        "name": "60级戒指",
+        "price": 150
+      },
+      {
+        "name": "60级耳饰",
+        "price": 130
+      },
+      {
+        "name": "60级手镯",
+        "price": 30
+      },
+      {
+        "name": "60级配饰",
+        "price": 30
+      },
+      {
+        "name": "80级戒指",
+        "price": 360
+      },
+      {
+        "name": "80级耳饰",
+        "price": 260
+      },
+      {
+        "name": "80级手镯",
+        "price": 90
+      },
+      {
+        "name": "80级配饰",
+        "price": 90
+      },
+      {
+        "name": "100级戒指",
+        "price": 930
+      },
+      {
+        "name": "100级耳饰",
+        "price": 830
+      },
+      {
+        "name": "100级手镯",
+        "price": 90
+      },
+      {
+        "name": "100级配饰",
+        "price": 90
+      },
+      {
+        "name": "120级戒指",
+        "price": 1400
+      },
+      {
+        "name": "120级耳饰",
+        "price": 1200
+      },
+      {
+        "name": "120级手镯",
+        "price": 20
+      },
+      {
+        "name": "120级配饰",
+        "price": 20
+      },
+      {
+        "name": "140级戒指",
+        "price": 2300
+      },
+      {
+        "name": "140级耳饰",
+        "price": 1850
+      },
+      {
+        "name": "140级手镯",
+        "price": 320
+      },
+      {
+        "name": "140级配饰",
+        "price": 360
+      }
+    ],
+    "src": "/images/items/灵饰指南书.png"
+  },
+  {
+    "id": 2014,
+    "name": "魔兽要诀",
+    "type": "dynamic",
+    "children": [
+      {
+        "name": "普通",
+        "price": 80
+      },
+      {
+        "name": "夜战",
+        "price": 85
+      },
+      {
+        "name": "必杀",
+        "price": 85
+      },
+      {
+        "name": "吸血",
+        "price": 82
+      },
+      {
+        "name": "法爆",
+        "price": 82
+      },
+      {
+        "name": "法波",
+        "price": 82
+      },
+      {
+        "name": "魔心",
+        "price": 82
+      },
+      {
+        "name": "幸运",
+        "price": 82
+      },
+      {
+        "name": "敏捷",
+        "price": 82
+      },
+      {
+        "name": "进爆",
+        "price": 82
+      },
+      {
+        "name": "进必",
+        "price": 82
+      },
+      {
+        "name": "遗志",
+        "price": 82
+      },
+      {
+        "name": "驱鬼",
+        "price": 82
+      },
+      {
+        "name": "反震",
+        "price": 82
+      },
+      {
+        "name": "招架",
+        "price": 82
+      },
+      {
+        "name": "法连",
+        "price": 82
+      },
+      {
+        "name": "合纵",
+        "price": 82
+      },
+      {
+        "name": "吸收",
+        "price": 76
+      },
+      {
+        "name": "小法",
+        "price": 76
+      },
+      {
+        "name": "反击",
+        "price": 76
+      },
+      {
+        "name": "强力",
+        "price": 76
+      },
+      {
+        "name": "飞行",
+        "price": 76
+      },
+      {
+        "name": "防御",
+        "price": 76
+      },
+      {
+        "name": "法抵",
+        "price": 76
+      },
+      {
+        "name": "永恒",
+        "price": 76
+      },
+      {
+        "name": "冥思",
+        "price": 65
+      },
+      {
+        "name": "精神",
+        "price": 65
+      },
+      {
+        "name": "隐身",
+        "price": 55
+      },
+      {
+        "name": "再生",
+        "price": 55
+      },
+      {
+        "name": "神佑",
+        "price": 45
+      },
+      {
+        "name": "鬼魂",
+        "price": 45
+      }
+    ],
+    "src": "/images/items/魔兽要诀.png"
+  },
+  {
+    "id": 20142,
+    "name": "高级魔兽要诀",
+    "type": "dynamic",
+    "children": [
+      {
+        "name": "普通",
+        "price": 80
+      }
+    ],
+    "src": "/images/items/高级魔兽要诀.png"
+  },
+  {
+    "id": 2015,
+    "name": "原初魔石",
+    "type": "dynamic",
+    "children": [
+      {
+        "name": "绿-100级",
+        "price": 160
+      },
+      {
+        "name": "红-110级",
+        "price": 150
+      },
+      {
+        "name": "黄-120级",
+        "price": 170
+      },
+      {
+        "name": "紫-130级",
+        "price": 260
+      }
+    ],
+    "src": "/images/items/原初魔石.png"
+  },
+  {
+    "id": 2016,
+    "name": "附魔宝珠",
+    "type": "dynamic",
+    "children": [
+      {
+        "name": "80级",
+        "price": 900
+      },
+      {
+        "name": "100级",
+        "price": 1800
+      },
+      {
+        "name": "110级",
+        "price": 1800
+      },
+      {
+        "name": "120级",
+        "price": 1900
+      },
+      {
+        "name": "130级",
+        "price": 2600
+      }
+    ],
+    "src": "/images/items/附魔宝珠.png"
+  },
+  {
+    "id": 2017,
+    "name": "珍珠",
+    "type": "dynamic",
+    "children": [
+      {
+        "name": "50级",
+        "price": 10
+      },
+      {
+        "name": "60级",
+        "price": 15
+      },
+      {
+        "name": "70级",
+        "price": 15
+      },
+      {
+        "name": "80级",
+        "price": 15
+      },
+      {
+        "name": "90级",
+        "price": 15
+      },
+      {
+        "name": "100级",
+        "price": 30
+      },
+      {
+        "name": "110级",
+        "price": 30
+      },
+      {
+        "name": "120级",
+        "price": 45
+      },
+      {
+        "name": "130级",
+        "price": 150
+      }
+    ],
+    "src": "/images/items/珍珠.png"
+  },
+  {
+    "id": 2018,
+    "name": "如意丹",
+    "type": "dynamic",
+    "children": [
+      {
+        "name": "金",
+        "price": 8
+      },
+      {
+        "name": "木",
+        "price": 28
+      },
+      {
+        "name": "水",
+        "price": 20
+      },
+      {
+        "name": "火",
+        "price": 3
+      },
+      {
+        "name": "土",
+        "price": 14
+      }
+    ],
+    "src": "/images/items/如意丹.png"
+  },
+  {
+    "id": 2019,
+    "name": "召唤兽内丹",
+    "type": "dynamic",
+    "children": [
+      {
+        "name": "普通内丹",
+        "price": 8
+      },
+      {
+        "name": "迅敏",
+        "price": 75
+      },
+      {
+        "name": "连环",
+        "price": 55
+      },
+      {
+        "name": "矫健",
+        "price": 50
+      },
+      {
+        "name": "静岳",
+        "price": 35
+      },
+      {
+        "name": "狂怒撞击",
+        "price": 15
+      }
+    ],
+    "src": "/images/items/召唤兽内丹.png"
+  },
+  {
+    "id": 2020,
+    "name": "高级召唤兽内丹",
+    "type": "dynamic",
+    "children": [
+      {
+        "name": "普通内丹",
+        "price": 80
+      },
+      {
+        "name": "摧心浪",
+        "price": 1500
+      },
+      {
+        "name": "舍身击",
+        "price": 810
+      },
+      {
+        "name": "腾挪劲",
+        "price": 550
+      },
+      {
+        "name": "碎甲刃",
+        "price": 200
+      },
+      {
+        "name": "生死决",
+        "price": 210
+      }
+    ],
+    "src": "/images/items/高级召唤兽内丹.png"
+  },
+  {
+    "id": 2021,
+    "name": "稀有召唤兽",
+    "type": "dynamic",
+    "children": [
+      {
+        "id": 1101,
+        "name": "广目巡守",
+        "price": 950,
+        "type": "fixed"
+      },
+      {
+        "id": 1102,
+        "name": "持国巡守",
+        "price": 500,
+        "type": "fixed"
+      },
+      {
+        "id": 1103,
+        "name": "多闻巡守",
+        "price": 500,
+        "type": "fixed"
+      },
+      {
+        "id": 1104,
+        "name": "谛听",
+        "price": 550,
+        "type": "fixed"
+      },
+      {
+        "id": 1105,
+        "name": "龙龟",
+        "price": 550,
+        "type": "fixed"
+      },
+      {
+        "id": 1106,
+        "name": "妙华天女",
+        "price": 50,
+        "type": "fixed"
+      }
+    ],
+    "src": "/images/items/稀有召唤兽.png"
+  },
+  {
+    "id": 2022,
+    "name": "九转金丹",
+    "type": "dynamic",
+    "children": [
+      {
+        "name": "10品",
+        "price": 1.5
+      },
+      {
+        "name": "20品",
+        "price": 3
+      },
+      {
+        "name": "30品",
+        "price": 4.5
+      },
+      {
+        "name": "40品",
+        "price": 6
+      },
+      {
+        "name": "50品",
+        "price": 7.5
+      },
+      {
+        "name": "60品",
+        "price": 9
+      },
+      {
+        "name": "70品",
+        "price": 10.5
+      },
+      {
+        "name": "80品",
+        "price": 12
+      },
+      {
+        "name": "90品",
+        "price": 13.5
+      },
+      {
+        "name": "100品",
+        "price": 15
+      }
+    ],
+    "src": "/images/items/九转金丹.png"
+  },
+  {
+    "id": 2023,
+    "name": "归墟之证",
+    "type": "dynamic",
+    "children": [
+      {
+        "name": "神器/星",
+        "price": 50
+      },
+      {
+        "name": "副本/星",
+        "price": 20
+      },
+      {
+        "name": "地宫/星",
+        "price": 20
+      },
+      {
+        "name": "飞贼 天降/星",
+        "price": 20
+      },
+      {
+        "name": "抓鬼1星",
+        "price": 5
+      },
+      {
+        "name": "抓鬼3星",
+        "price": 50
+      },
+      {
+        "name": "抓鬼5星",
+        "price": 90
+      }
+    ],
+    "src": "/images/items/归墟之证.png"
+  },
+  {
+    "id": 2024,
+    "name": "上古锻造图册",
+    "type": "dynamic",
+    "children": [
+      {
+        "name": "105图册",
+        "price": 1
+      },
+      {
+        "name": "115图册",
+        "price": 1
+      },
+      {
+        "name": "125图册",
+        "price": 3
+      }
+    ],
+    "src": "/images/items/上古锻造图册.png"
+  },
+  {
+    "id": 2025,
+    "name": "制造指南书",
+    "type": "dynamic",
+    "children": [
+      {
+        "name": "130腰带",
+        "price": 1600
+      }
+    ],
+    "src": "/images/items/制造指南书.png"
+  },
+  {
+    "id": 2,
+    "name": "临时符",
+    "price": 5,
+    "type": "fixed",
+    "src": "/images/items/临时符.png"
+  },
+  {
+    "id": 1001,
+    "name": "60武器",
+    "price": 20,
+    "type": "fixed",
+    "src": "/images/items/60武器.png"
+  },
+  {
+    "id": 1002,
+    "name": "70武器",
+    "price": 20,
+    "type": "fixed",
+    "src": "/images/items/70武器.png"
+  },
+  {
+    "id": 1003,
+    "name": "80武器",
+    "price": 50,
+    "type": "fixed",
+    "src": "/images/items/80武器.png"
+  },
+  {
+    "id": 1004,
+    "name": "60防具",
+    "price": 20,
+    "type": "fixed",
+    "src": "/images/items/60防具.png"
+  },
+  {
+    "id": 1005,
+    "name": "70防具",
+    "price": 10,
+    "type": "fixed",
+    "src": "/images/items/70防具.png"
+  },
+  {
+    "id": 1006,
+    "name": "80防具",
+    "price": 40,
+    "type": "fixed",
+    "src": "/images/items/80防具.png"
+  },
+  {
+    "id": 10061,
+    "name": "上古灵符",
+    "price": 4,
+    "type": "fixed",
+    "src": "/images/items/上古灵符.png"
+  },
+  {
+    "id": 1007,
+    "name": "金刚石",
+    "price": 120,
+    "type": "fixed",
+    "src": "/images/items/金刚石.png"
+  },
+  {
+    "id": 1008,
+    "name": "定魂珠",
+    "price": 120,
+    "type": "fixed",
+    "src": "/images/items/定魂珠.png"
+  },
+  {
+    "id": 1009,
+    "name": "龙鳞",
+    "price": 20,
+    "type": "fixed",
+    "src": "/images/items/龙鳞.png"
+  },
+  {
+    "id": 1010,
+    "name": "夜光珠",
+    "price": 90,
+    "type": "fixed",
+    "src": "/images/items/夜光珠.png"
+  },
+  {
+    "id": 1011,
+    "name": "避水珠",
+    "price": 10,
+    "type": "fixed",
+    "src": "/images/items/避水珠.png"
+  },
+  {
+    "id": 1012,
+    "name": "特赦令牌",
+    "price": 380,
+    "type": "fixed",
+    "src": "/images/items/特赦令牌.png"
+  },
+  {
+    "id": 1013,
+    "name": "金柳露",
+    "price": 7,
+    "type": "fixed",
+    "src": "/images/items/金柳露.png"
+  },
+  {
+    "id": 1014,
+    "name": "超级金柳露",
+    "price": 28,
+    "type": "fixed",
+    "src": "/images/items/超级金柳露.png"
+  },
+  {
+    "id": 1015,
+    "name": "净瓶玉露",
+    "price": 7,
+    "type": "fixed",
+    "src": "/images/items/净瓶玉露.png"
+  },
+  {
+    "id": 1016,
+    "name": "超级净瓶玉露",
+    "price": 22,
+    "type": "fixed",
+    "src": "/images/items/超级净瓶玉露.png"
+  },
+  {
+    "id": 1017,
+    "name": "修炼果",
+    "price": 85,
+    "type": "fixed",
+    "src": "/images/items/修炼果.png"
+  },
+  {
+    "id": 1018,
+    "name": "灵石",
+    "price": 7,
+    "type": "fixed",
+    "src": "/images/items/灵石.png"
+  },
+  {
+    "id": 1027,
+    "name": "摇钱树苗",
+    "price": 40,
+    "type": "fixed",
+    "src": "/images/items/摇钱树苗.png"
+  },
+  {
+    "id": 1028,
+    "name": "法宝任务书",
+    "price": 180,
+    "type": "fixed",
+    "src": "/images/items/法宝任务书.png"
+  },
+  {
+    "id": 1029,
+    "name": "未激活的符石",
+    "price": 12,
+    "type": "fixed",
+    "src": "/images/items/未激活的符石.png"
+  },
+  {
+    "id": 1030,
+    "name": "符石卷轴",
+    "price": 1,
+    "type": "fixed",
+    "src": "/images/items/符石卷轴.png"
+  },
+  {
+    "id": 1032,
+    "name": "彩果",
+    "price": 30,
+    "type": "fixed",
+    "src": "/images/items/彩果.png"
+  },
+  {
+    "id": 1033,
+    "name": "海马",
+    "price": 20,
+    "type": "fixed",
+    "src": "/images/items/海马.png"
+  },
+  {
+    "id": 1034,
+    "name": "月华露",
+    "price": 6.5,
+    "type": "fixed",
+    "src": "/images/items/月华露.png"
+  },
+  {
+    "id": 1035,
+    "name": "玄天残卷",
+    "price": 15,
+    "type": "fixed",
+    "src": "/images/items/玄天残卷.png"
+  },
+  {
+    "id": 1036,
+    "name": "储灵袋",
+    "price": 1.5,
+    "type": "fixed",
+    "src": "/images/items/储灵袋.png"
+  },
+  {
+    "id": 1037,
+    "name": "仙露小丸子",
+    "price": 15,
+    "type": "fixed",
+    "src": "/images/items/仙露小丸子.png"
+  },
+  {
+    "id": 1038,
+    "name": "金银锦盒",
+    "price": 2.5,
+    "type": "fixed",
+    "src": "/images/items/金银锦盒.png"
+  },
+  {
+    "id": 1039,
+    "name": "灵犀碎片",
+    "price": 10,
+    "type": "fixed",
+    "src": "/images/items/灵犀碎片.png"
+  }
+]

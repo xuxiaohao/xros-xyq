@@ -28,6 +28,7 @@ export default defineConfigWithVueTs(
     },
     rules: {
       'prettier/prettier': 'warn', // 使用 warn 而不是 error，因为格式化不是关键问题
+      '@typescript-eslint/no-explicit-any': 'off',
     },
   },
 )

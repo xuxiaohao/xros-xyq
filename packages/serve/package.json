@@ -5,17 +5,27 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "dev": "echo 'serve dev script'",
-    "build": "echo 'serve build script'",
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "compress-image": "tsx src/utils/imageCompression/index.ts compress-image",
+    "compress-folder": "tsx src/utils/imageCompression/index.ts compress-folder",
     "test": "echo 'serve test script'",
     "lint": "echo 'serve lint script'",
-    "clean": "echo 'serve clean script'"
+    "clean": "rm -rf dist"
   },
   "keywords": [
     "server",
     "backend"
   ],
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "sharp": "^0.34.5"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.4",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
 }
-

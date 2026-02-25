@@ -1,0 +1,16 @@
+:root
+  // 1 位数字体颜色,蓝色
+  --game-number-1-color: #3666ff;
+  --game-number-1-background-color: #3666ff20;
+  // 2 位数字体颜色, 绿色
+  --game-number-2-color: #00b42a;
+  --game-number-2-background-color: #00b42a20;
+  // 3 位数字体颜色, 红色
+  --game-number-3-color: #ff4d4f;
+  --game-number-3-background-color: #ff4d4f20;
+  // 4 位数字体颜色, 紫色
+  --game-number-4-color: #9c27b0;
+  --game-number-4-background-color: #9c27b020;
+  // 5 位数字体颜色, 粉色
+  --game-number-5-color: #ff69b4;
+  --game-number-5-background-color: #ff69b420;

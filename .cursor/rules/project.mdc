@@ -1,0 +1,10 @@
+---
+name: vue3
+description: This is a new rule
+---
+
+# Overview
+
+- 这是一个 vue3项目
+- ui 库使用 element-plus. 尽量使用组件. 文档地址是 https://element-plus.org/
+- 主题使用暗黑风格

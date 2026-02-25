@@ -2,8 +2,12 @@ import { fileURLToPath } from 'node:url'
 import { mergeConfig, defineConfig, configDefaults } from 'vitest/config'
 import viteConfig from './vite.config'
 
+// vite.config.ts 返回的是函数，需要调用它
+const resolvedViteConfig =
+  typeof viteConfig === 'function' ? viteConfig({ mode: 'test', command: 'build' }) : viteConfig
+
 export default mergeConfig(
-  viteConfig,
+  resolvedViteConfig,
   defineConfig({
     test: {
       environment: 'jsdom',

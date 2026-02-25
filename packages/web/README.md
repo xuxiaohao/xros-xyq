@@ -1,73 +1,28 @@
-# web-vue
+# X西游助手
 
-This template should help get you started developing with Vue 3 in Vite.
+这是一个帮助玩家更好的游玩梦幻西游的项目. 可以记录查找游戏信息. 并可以与其他玩家分享
 
-## Recommended IDE Setup
+## 功能介绍
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+### 记账
 
-## Recommended Browser Setup
+用于记录五开日常活动产出物品信息,计算每个任务/活动的产出与消耗, 帮助优化时间分配与细节
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd) 
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+- [] 日常记账
+  - [] 每日总结
+  - [] 藏宝阁物价比较插件
+    - [] 哪些物品可以游戏内购买上藏宝阁
+  - [] 截图记录: 可以通过上传截图或游戏中截屏自动分析物品与数量信息并记录
+- [] 每日待办: 列出日常与活动的 todoList
+  - [] 活动提醒: 每次活动前几分钟通过页面里或者浏览器通知 API 进行提醒,防止错过
+- [] 谁是牟利king: 联网后可与同组的玩家进行 pk, 看看谁赚的更多
+  - 通过分享加入群组, 相同群组的成员可以查看其他成员的牟利情况
+- [] 支出记账
+- [] 仓库整理
 
-## Type Support for `.vue` Imports in TS
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+### 配号
 
-## Customize configuration
+### 其他工具
 
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-pnpm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-pnpm dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-pnpm build
-```
-
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
-pnpm test:unit
-```
-
-### Run End-to-End Tests with [Playwright](https://playwright.dev)
-
-```sh
-# Install browsers for the first run
-npx playwright install
-
-# When testing on CI, must build the project first
-pnpm build
-
-# Runs the end-to-end tests
-pnpm test:e2e
-# Runs the tests only on Chromium
-pnpm test:e2e --project=chromium
-# Runs the tests of a specific file
-pnpm test:e2e tests/example.spec.ts
-# Runs the tests in debug mode
-pnpm test:e2e --debug
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-pnpm lint
-```
+页面基础功能可离线运行
