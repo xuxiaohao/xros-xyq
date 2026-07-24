@@ -104,8 +104,9 @@ export const useConfigStore = defineStore(
      */
     const resetConfig = (path?: string): void => {
       if (!path) {
-        // 重置所有配置
+        // 重置所有配置；items 深拷贝避免与 default 共用引用
         Object.assign(config, defaultConfig)
+        config.items = JSON.parse(JSON.stringify(defaultConfig.items))
         return
       }
 
@@ -133,8 +134,10 @@ export const useConfigStore = defineStore(
         defaultValue = defaultValue[key]
       }
 
-      // 重置值
-      if (defaultValue && typeof defaultValue === 'object' && lastKey in defaultValue) {
+      // 重置值；items 深拷贝避免与 default 共用引用
+      if (lastKey === 'items' && Array.isArray(defaultConfig.items)) {
+        target.items = JSON.parse(JSON.stringify(defaultConfig.items))
+      } else if (defaultValue && typeof defaultValue === 'object' && lastKey in defaultValue) {
         target[lastKey] = defaultValue[lastKey]
       } else {
         // 如果路径指向整个对象，重置整个对象

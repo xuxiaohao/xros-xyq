@@ -17,7 +17,11 @@
       </el-card>
       <SettingsDrawer v-model="drawerVisible" />
       <el-card>
-        <el-statistic title="物品总价值" :precision="1" group-separator="" :value="totalPrice" />
+        <el-statistic title="物品总价值" :precision="1" group-separator="" :value="totalPrice">
+          <template #suffix>
+            <span class="text-sm">万</span>
+          </template>
+        </el-statistic>
         <el-statistic class="inline-edit-statistic" title="现金" :precision="1" group-separator="">
           <template #suffix>
             <InlineEdit v-model="dataStore.money" />
@@ -25,8 +29,12 @@
         </el-statistic>
       </el-card>
       <el-card>
-        <el-statistic title="消耗点卡" :precision="0" group-separator="" :value="dkxh" />
-        <el-statistic title="游戏币" :precision="1" group-separator="" :value="dkyxbxh" />
+        <el-statistic title="消耗点卡" :precision="0" group-separator="" :value="dkxh">
+          <template #suffix><span class="text-sm">点</span></template>
+        </el-statistic>
+        <el-statistic title="游戏币" :precision="1" group-separator="" :value="dkyxbxh">
+          <template #suffix><span class="text-sm">万</span></template>
+        </el-statistic>
       </el-card>
       <el-card>
         <el-statistic

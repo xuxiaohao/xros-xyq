@@ -4,8 +4,8 @@
     placement="right"
     :width="popoverWidth"
     trigger="hover"
-    :show-after="1000"
-    :hide-after="150"
+    :show-after="150"
+    :hide-after="0"
     transition=""
     popper-class="game-item-popover"
   >
